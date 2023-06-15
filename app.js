@@ -38,9 +38,9 @@ app.get('/product', async(req,res) => {
 })
 
 //get quicksearch
-app.get('/quicksearch',async (req,res) => {
+app.get('/quick',async (req,res) => {
     let query ={};
-    let collection = "quicksearch"
+    let collection = "quick"
     let output = await getData(collection,query)
     res.send(output)
 })
