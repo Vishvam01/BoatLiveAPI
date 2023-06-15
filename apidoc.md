@@ -8,7 +8,7 @@
 * http://localhost:6250/product?categoryId=2
 
 >List of Quick Search
-* http://localhost:6250/quicksearch
+* http://localhost:6250/quick
 
 
                                     //Page 2
